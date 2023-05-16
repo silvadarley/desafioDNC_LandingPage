@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    font-family: "inter";
+}
+
+#bunner{
+    background-color: #303030;
+    color: #fff;
+    height: 475px;
+}
+
+#tituloBuner{
+    margin-left: 62px;
+    padding-top: 206px;
+    font-size: 60px;
+}
+
+#textoBunner{
+    margin-left: 62px;
+    padding-bottom: 149px;
+    font-size: 20px;
+}
+
+#informacoes{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+
+    margin: 96px 0px 66.82px 171px;
+    
+}
+
+.desInformGrande{
+    font-size: 50px;
+}
+
+#historia{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+
+    margin-left: 77px;
+}
+
+#tituloHistoria{
+    font-size: 35px;
+    margin: 180px 0px 20px 0px;
+}
+
+#textoHistoria{
+    font-size: 24px;
+   
+}
