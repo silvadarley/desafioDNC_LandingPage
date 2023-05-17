@@ -25,8 +25,8 @@
     display: grid;
     grid-auto-flow: column;
     columns: auto;
-
-    margin: 96px 0px 66.82px 171px;
+    background-color: #F9F9F9;
+    padding: 96px 0px 66.82px 171px;
     
 }
 
@@ -44,10 +44,58 @@
 
 #tituloHistoria{
     font-size: 35px;
-    margin: 180px 0px 20px 0px;
+    margin: 250px 0px 40px 0px;
 }
 
 #textoHistoria{
     font-size: 24px;
    
+}
+
+#imagem{
+    margin-top: 92px;
+    margin-bottom: 97px;
+}
+
+#formulario{
+    background-color: #303030;
+    text-align: center;
+}
+
+#tituloFormulario{
+    color: #fff;
+    font-size: 38px;
+    padding: 87px 0px 10px 0px;
+}
+
+input{
+    border-radius: 10px;
+    background-color: #fff;
+    width:  500px;
+    height: 50px;
+    margin: 25px;
+    border: 0px;
+    padding-left: 10px;
+}
+
+#btnEnviar{
+    border-radius: 10px;
+    border: 0px;
+    width:  286px;
+    height: 74px;
+    color: #f5f5f5;
+    margin: 25px;
+    background-color: #c07212;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 87px;
+}
+
+button:hover{
+    background-color: #ffffff;
+    color: rgba(17, 31, 238, 0.836);
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #494848e5;
+    transition-duration: 0.5s;
+    cursor: pointer;
 }

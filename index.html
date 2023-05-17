@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -40,6 +40,7 @@
         </p>
     </div>
 
+    <!--História-->
     <div id="historia">
         <div id="texto">
             
@@ -61,6 +62,46 @@
             <img src="./imagens/imagen.svg" alt="Erro">
         </div>
 
+    </div>
+
+    <!--Formulário-->
+    <div id="formulario">
+        <h1 id="tituloFormulario">
+            Conheça mais sobre nossos serviços:
+        </h1>
+
+        <form action="https://api.sheetmonkey.io/form/an1Tkq9YMzZ5F6LABntqrQ" method="post">
+
+            <input id="Nome"
+                name="Name"
+                type="text"
+                placeholder="Nome"
+                required
+            > <br>
+
+            <input id="Email"
+                type="email" 
+                name="Email" 
+                placeholder="E-mail"
+                required
+            > <br>
+
+            <input type="hidden" 
+                name="Created" 
+                value="x-sheetmonkey-current-date-time" 
+            />
+
+
+            <button id="btnEnviar"
+                onclick="showmessage()"
+                type="submit"
+            >
+                Fale Conosco
+            </button>
+
+
+
+        </form>
     </div>
 
     <script src="./JavaScript/funcoes.js"></script>
